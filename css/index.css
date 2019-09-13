@@ -145,13 +145,17 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
 h3 {
   font-size: 2.8rem;
 }
-p {
+p,
+a {
   font-size: 1.6rem;
   line-height: 1.4;
 }
