@@ -6,3 +6,19 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+.primary-button(@bg-color, @font-color) {
+    background-color: @bg-color;
+    color: @font-color;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: lighten(@bg-color, 40%);
+        color: darken(@font-color, 80%);
+    }
+}

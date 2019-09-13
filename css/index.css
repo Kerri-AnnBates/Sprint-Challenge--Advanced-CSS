@@ -173,6 +173,7 @@ a {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 nav {
   text-align: center;
@@ -209,6 +210,7 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
+  width: 100%;
 }
 .home .space-images {
   display: -webkit-box;
@@ -252,6 +254,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  cursor: pointer;
+  background-color: #7886b0;
+  color: #262b30;
 }
 .home .walk .walk-img {
   width: 46%;
