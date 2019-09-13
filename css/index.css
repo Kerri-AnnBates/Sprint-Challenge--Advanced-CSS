@@ -184,6 +184,8 @@ nav {
   padding: 20px;
   background-color: #F6F6F6;
   border-bottom: 2px solid #F1F1F1;
+  position: fixed;
+  width: 100%;
 }
 nav a {
   color: #454A59;
@@ -210,6 +212,9 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 124px;
 }
 .home .intro h2 {
   padding: 15px;
