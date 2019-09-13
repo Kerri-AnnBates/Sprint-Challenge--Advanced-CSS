@@ -7,6 +7,11 @@
     flex-wrap: wrap;
 }
 
+.mobile-full-width {
+    width: 100%;
+    margin: 20px auto;
+}
+
 .primary-button(@bg-color, @font-color) {
     background-color: @bg-color;
     color: @font-color;
@@ -22,3 +27,5 @@
         color: darken(@font-color, 80%);
     }
 }
+
+@phone: ~'(max-width: 500px)';
